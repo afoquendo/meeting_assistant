@@ -37,5 +37,3 @@ prompt_to_LLAMA2 = LLMChain(llm=llm, prompt=pt)
 
 def summarize_text(text):       
    return prompt_to_LLAMA2.run(text) 
-
-
